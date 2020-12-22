@@ -1,0 +1,429 @@
+.containerMB {
+    width: 100%;
+    max-width: 698px;
+    margin: 0 auto;
+}
+
+.Motherboard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Components */
+
+.CPU {
+    width: 172px;
+    height: 158px;
+    position: absolute;
+    top: 206px;
+    left: 350px;
+}
+
+.CPU_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 172px;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    display: none;
+}
+
+.CPU:hover .CPU_Description {
+    display: block;
+}
+
+
+.RAM {
+    width: 50px;
+    height: 445px;
+    position: absolute;
+    top: 22px;
+    left: 578px;
+}
+
+.RAM_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 51px;
+
+    border-radius: 5px;
+
+    text-align: center;
+    display: none;
+}
+
+.RAM:hover .RAM_Description {
+    display: block;
+}
+
+
+
+.Tablet {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 332px;
+    left: 203px;
+    border-radius: 50%;
+}
+
+.Tablet_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 65px;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    display: none;
+}
+
+.Tablet:hover .Tablet_Description {
+    display: block;
+}
+
+
+
+.PCI {
+    width: 310px;
+    height: 22px;
+    position: absolute;
+    top: 481px;
+    left: 160px;
+}
+
+.PCI_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: -8px;
+    left: 310px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.PCI:hover > .PCI_Description {
+    display: block;
+}
+
+.HDMI {
+    width: 40px;
+    height: 46px;
+    position: absolute;
+    top: 193px;
+    left: 30px;
+}
+
+.HDMI_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.HDMI:hover .HDMI_Description {
+    display: block;
+}
+
+
+
+.USB_3 {
+    width: 53px;
+    height: 41px;
+    position: absolute;
+    top: 253px;
+    left: 25px;
+}
+
+.USB_3_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 53px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.USB_3:hover .USB_3_Description {
+    display: block;
+}
+
+
+
+
+.USB_2 {
+    width: 57px;
+    height: 41px;
+    position: absolute;
+    top: 314px;
+    left: 25px;
+}
+
+.USB_2_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 53px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.USB_2:hover .USB_2_Description {
+    display: block;
+}
+
+
+
+.Internet {
+    width: 84px;
+    height: 57px;
+    position: absolute;
+    top: 371px;
+    left: 17px;
+}
+
+.Internet_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 9px;
+    left: 84px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.Internet:hover .Internet_Description {
+    display: block;
+}
+
+.AudioPort {
+    width: 68px;
+    height: 38px;
+    position: absolute;
+    top: 437px;
+    left: 10px;
+}
+
+.AudioPort_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 68px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.AudioPort:hover .AudioPort_Description {
+    display: block;
+}
+
+.SATA {
+    width: 150px;
+    height: 18px;
+    position: absolute;
+    top: 660px;
+    left: 539px;
+}
+
+.SATA_2 {
+    width: 18px;
+    height: 50px;
+    position: absolute;
+    top: 600px;
+    left: 680px;
+}
+
+.SATA_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left: 159px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.SATA:hover .SATA_Description {
+    display: block;
+}
+
+.VGA {
+    width: 88px;
+    height: 109px;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.VGA_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 27px;
+    left: 88px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.VGA:hover .VGA_Description {
+    display: block;
+}
+
+.PSHalf {
+    width: 69px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.PSHalf_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 8px;
+    left: 69px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.PSHalf:hover .PSHalf_Description {
+    display: block;
+}
+
+.PowerAll {
+    width: 32px;
+    height: 156px;
+    position: absolute;
+    top: 243px;
+    left: 665px;
+}
+
+.PowerAll_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.PowerAll:hover .PowerAll_Description {
+    display: block;
+}
+
+.PowerATX {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 57px;
+    left: 166px;
+}
+
+.PowerATX_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 33px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.PowerATX:hover .PowerATX_Description {
+    display: block;
+}
+
+.Chipset {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 534px;
+    left: 557px;
+}
+
+.Chipset_Description {
+    background-color: #FF0000;
+    color: #ffffff;
+    width: 140px;
+    height: 50px;
+    position: absolute;
+    top: 21px;
+    left: 85px;
+
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.Chipset:hover .Chipset_Description {
+    display: block;
+}
